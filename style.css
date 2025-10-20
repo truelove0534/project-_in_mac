@@ -89,7 +89,7 @@ white-space: nowrap;
 
 
 h1{
-    color:blue;
+    color:rgb(146, 102, 27);
     font-size: 30px;
    
 }
@@ -171,7 +171,8 @@ height: 40px;
     width: 300px;
     margin: 10px;
    text-align: center;
-    margin:0 auto
+    margin:0 auto;
+    
 }
 
 .box7 th, .box7 td{
@@ -185,4 +186,9 @@ padding: 5px;
     font-weight: bold;
     font-size: 20px;
     background-color: beige;
+}
+
+
+p{
+    color: aqua;
 }
