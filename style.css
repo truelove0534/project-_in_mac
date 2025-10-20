@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    margin: 10px;
+   
+}
+
+
+.header h1 a{
+    width: 200px;
+    display: block;
+   
+background: url(img/logo.png) no-repeat ;
+background-size: contain;
+text-indent: 101%;
+overflow: hidden;
+white-space: nowrap;
+
+}
+
+
+.menu1 ul{
+    width: 300px;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.box1{
+   
+    width: 800px;
+  background-image: url(img/images/使用html做網站-_10.png);
+  background-repeat: repeat;
+  background-size: contain;
+    margin-bottom: 50px;
+   
+}
+
+
+h1{
+    color:blue;
+    font-size: 30px;
+   
+}
+
+
+h2{
+ writing-mode: vertical-rl;
+}
+
+
+
+.box2{
+    
+    
+    border: 1px solid red;
+    position: relative;
+    background-image: url(img/1.jpeg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 30% right 50%;
+   z-index: 1;
+   margin: 20px;
+    
+}
+
+
+.box2::before{
+ position: absolute;
+ content:" " ;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(198, 144, 183);
+    top: -50px;
+    left: 50;
+    z-index: -1;
+}
+
+
+
+.box3{
+    width: 800px;
+    height: 300px;
+    border: solid purple;
+    background-image: url(img/images/logo.png);
+    background-repeat: repeat-y;
+    background-color: beige;
+    margin: 50px;
+    background-position: right bottom;
+    font-size: 25px;
+
+
+}
+    
+
+.box4{
+    width: 800px;
+  background-image: url(img/images/使用html做網站-_10.png);
+  background-repeat: repeat-x;
+background-color: #009771;
+    
+}
+
+.box5{
+    width: 600px;
+    height: 600px;
+    border: 3px solid rgb(244, 155, 170);
+    background: url(img/images/06.png) no-repeat rgb(133, 133, 168) 20px 150px;
+}
+
+.box6{
+    width: 170px;
+height: 40px;
+
+    background: url(img/images/logo1.png) no-repeat  pink;
+    
+}
+
+.box7{
+    width: 300px;
+    margin: 10px;
+   text-align: center;
+    margin:0 auto
+}
+
+.box7 th, .box7 td{
+border-top: 2px dashed blue;
+border-bottom: 2px dashed blue;
+padding: 5px;
+}
+
+
+.box7 table th{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: beige;
+}
